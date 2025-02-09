@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novus Watch Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #A7A0C2;
+            font-family: Arial, sans-serif;
+        }
+        .card {
+            background: white;
+            width: 300px;
+            border-radius: 12px;
+            overflow: visible;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        .card-header {
+            position: relative;
+            background: #EDEDED;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .badge {
+            position: absolute;
+            top: 10px;
+            left: -20px;
+            background: #F9D776;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 12px;
+            z-index: 10;
+        }
+        .card-header img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .card-body {
+            padding: 15px;
+        }
+        .card-body h2 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .series {
+            font-size: 12px;
+            color: gray;
+        }
+        .card-body p {
+            font-size: 14px;
+            color: #333;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <div class="badge">New and Improved!</div>
+            <img src="assets/novus-watch.jpg" alt="Novus Watch">
+        </div>
+        <div class="card-body">
+            <h2>Novus Watch <span class="series">Series IV</span></h2>
+            <p>The pinnacle of fashion and tech. This wearable piece is an homage to gilded palaces and minimal regalia, combining nouveau-deco and brutalism influences in a compact, Swiss-made watch.</p>
+        </div>
+    </div>
+</body>
+</html>

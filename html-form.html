@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>AltSchool Application Form</h1>
+        <nav>
+            <ul>
+                <li><a href="html-index.html">Home</a></li>
+                <li><a href="html-form.html">AltSchool Application Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required><br><br>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Program Details</legend>
+                <label for="program">Select Program:</label>
+                <select id="program" name="program" required>
+                    <option value="">--Select--</option>
+                    <option value="software-engineering">School of Engineering</option>
+                    <option value="data-science">School of Data</option>
+                    <option value="product-design">School of Design</option>
+                </select><br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required> Male
+                <input type="radio" id="female" name="gender" value="female" required> Female<br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label for="bio">Biography:</label><br>
+                <textarea id="bio" name="bio" rows="5" cols="40" required></textarea><br><br>
+
+                <label for="goals">Goals for the Program:</label><br>
+                <textarea id="goals" name="goals" rows="5" cols="40" required></textarea><br><br>
+            </fieldset>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </main>
+
+    <footer>
+        <p><strong>Address:</strong></p>
+        <p>&copy; 2025 Mene-Ejegi Ogbemi. All rights reserved.</p>
+        <p><a href="#top">Back to Top</a></p>
+    </footer>
+</body>
+</html>
